@@ -140,6 +140,12 @@ class Russia(Country):
             rsbn_beacon = vehicles.Unarmed.rsbn_beacon
             prmg_gp_beacon = vehicles.Unarmed.prmg_gp_beacon
             prmg_loc_beacon = vehicles.Unarmed.prmg_loc_beacon
+            kamaz_tent_civil = vehicles.Unarmed.kamaz_tent_civil
+            ural_atz5_civil = vehicles.Unarmed.ural_atz5_civil
+            ural_4230_civil_b = vehicles.Unarmed.ural_4230_civil_b
+            ural_4230_civil_t = vehicles.Unarmed.ural_4230_civil_t
+            zil_131_civil = vehicles.Unarmed.zil_131_civil
+            gaz_66_civil = vehicles.Unarmed.gaz_66_civil
 
         class Armor:
             BMD_1 = vehicles.Armor.BMD_1
@@ -311,6 +317,12 @@ class Russia(Country):
         vehicles.Unarmed.rsbn_beacon,
         vehicles.Unarmed.prmg_gp_beacon,
         vehicles.Unarmed.prmg_loc_beacon,
+        vehicles.Unarmed.kamaz_tent_civil,
+        vehicles.Unarmed.ural_atz5_civil,
+        vehicles.Unarmed.ural_4230_civil_b,
+        vehicles.Unarmed.ural_4230_civil_t,
+        vehicles.Unarmed.zil_131_civil,
+        vehicles.Unarmed.gaz_66_civil,
         vehicles.Armor.BMD_1,
         vehicles.Armor.BMP_1,
         vehicles.Armor.BMP_2,
@@ -409,12 +421,14 @@ class Russia(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -494,12 +508,14 @@ class Russia(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -1165,6 +1181,7 @@ class Ukraine(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -1242,6 +1259,7 @@ class Ukraine(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -1731,10 +1749,13 @@ class USA(Country):
         AJS37 = planes.AJS37
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
+        F_14A_135_GR_Early = planes.F_14A_135_GR_Early
         F4U_1D = planes.F4U_1D
         F4U_1D_CW = planes.F4U_1D_CW
         I_16 = planes.I_16
@@ -1816,10 +1837,13 @@ class USA(Country):
         Plane.AJS37,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
+        Plane.F_14A_135_GR_Early,
         Plane.F4U_1D,
         Plane.F4U_1D_CW,
         Plane.I_16,
@@ -2275,11 +2299,13 @@ class Turkey(Country):
         KC130 = planes.KC130
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -2339,11 +2365,13 @@ class Turkey(Country):
         Plane.KC130,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -2787,12 +2815,14 @@ class UK(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -2850,12 +2880,14 @@ class UK(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -3300,12 +3332,14 @@ class France(Country):
         AV8BNA = planes.AV8BNA
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -3368,12 +3402,14 @@ class France(Country):
         Plane.AV8BNA,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -3968,12 +4004,14 @@ class Germany(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -4033,12 +4071,14 @@ class Germany(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -4463,6 +4503,12 @@ class USAFAggressors(Country):
             prmg_gp_beacon = vehicles.Unarmed.prmg_gp_beacon
             prmg_loc_beacon = vehicles.Unarmed.prmg_loc_beacon
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
+            kamaz_tent_civil = vehicles.Unarmed.kamaz_tent_civil
+            ural_atz5_civil = vehicles.Unarmed.ural_atz5_civil
+            ural_4230_civil_b = vehicles.Unarmed.ural_4230_civil_b
+            ural_4230_civil_t = vehicles.Unarmed.ural_4230_civil_t
+            zil_131_civil = vehicles.Unarmed.zil_131_civil
+            gaz_66_civil = vehicles.Unarmed.gaz_66_civil
             CCKW_353 = vehicles.Unarmed.CCKW_353
             M30_CC = vehicles.Unarmed.M30_CC
             Hummer = vehicles.Unarmed.Hummer
@@ -4823,6 +4869,12 @@ class USAFAggressors(Country):
         vehicles.Unarmed.prmg_gp_beacon,
         vehicles.Unarmed.prmg_loc_beacon,
         vehicles.Unarmed.Bedford_MWD,
+        vehicles.Unarmed.kamaz_tent_civil,
+        vehicles.Unarmed.ural_atz5_civil,
+        vehicles.Unarmed.ural_4230_civil_b,
+        vehicles.Unarmed.ural_4230_civil_t,
+        vehicles.Unarmed.zil_131_civil,
+        vehicles.Unarmed.gaz_66_civil,
         vehicles.Unarmed.CCKW_353,
         vehicles.Unarmed.M30_CC,
         vehicles.Unarmed.Hummer,
@@ -4984,6 +5036,7 @@ class USAFAggressors(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         J_11A = planes.J_11A
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
@@ -4991,6 +5044,7 @@ class USAFAggressors(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -5097,6 +5151,7 @@ class USAFAggressors(Country):
         S_3B = planes.S_3B
         F_14B = planes.F_14B
         F_14A_135_GR = planes.F_14A_135_GR
+        F_14A_135_GR_Early = planes.F_14A_135_GR_Early
         Tornado_GR4 = planes.Tornado_GR4
         Mirage_F1CG = planes.Mirage_F1CG
         Mirage_F1CK = planes.Mirage_F1CK
@@ -5120,6 +5175,7 @@ class USAFAggressors(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.J_11A,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
@@ -5127,6 +5183,7 @@ class USAFAggressors(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -5233,6 +5290,7 @@ class USAFAggressors(Country):
         Plane.S_3B,
         Plane.F_14B,
         Plane.F_14A_135_GR,
+        Plane.F_14A_135_GR_Early,
         Plane.Tornado_GR4,
         Plane.Mirage_F1CG,
         Plane.Mirage_F1CK,
@@ -5747,12 +5805,14 @@ class Canada(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -5806,12 +5866,14 @@ class Canada(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -6218,12 +6280,14 @@ class Spain(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -6283,12 +6347,14 @@ class Spain(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -6750,11 +6816,13 @@ class TheNetherlands(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -6813,11 +6881,13 @@ class TheNetherlands(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -7244,12 +7314,14 @@ class Belgium(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -7305,12 +7377,14 @@ class Belgium(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -7698,12 +7772,14 @@ class Norway(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -7759,12 +7835,14 @@ class Norway(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -8146,12 +8224,14 @@ class Denmark(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -8207,12 +8287,14 @@ class Denmark(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -8624,11 +8706,13 @@ class Israel(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -8688,11 +8772,13 @@ class Israel(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -9191,12 +9277,14 @@ class Georgia(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -9252,12 +9340,14 @@ class Georgia(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -9679,12 +9769,14 @@ class Insurgents(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -9734,12 +9826,14 @@ class Insurgents(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -10114,6 +10208,7 @@ class Abkhazia(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -10173,6 +10268,7 @@ class Abkhazia(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -10524,6 +10620,7 @@ class SouthOssetia(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -10578,6 +10675,7 @@ class SouthOssetia(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -10884,12 +10982,14 @@ class Italy(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -10949,12 +11049,14 @@ class Italy(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -11372,12 +11474,14 @@ class Australia(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -11431,12 +11535,14 @@ class Australia(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -11807,6 +11913,7 @@ class Switzerland(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
@@ -11863,6 +11970,7 @@ class Switzerland(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
@@ -12194,12 +12302,14 @@ class Austria(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
         F4U_1D = planes.F4U_1D
@@ -12249,12 +12359,14 @@ class Austria(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
         Plane.F4U_1D,
@@ -12786,6 +12898,7 @@ class Belarus(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -12852,6 +12965,7 @@ class Belarus(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -13282,12 +13396,14 @@ class Bulgaria(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -13345,12 +13461,14 @@ class Bulgaria(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -13787,6 +13905,7 @@ class CzechRepublic(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -13847,6 +13966,7 @@ class CzechRepublic(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -14277,6 +14397,7 @@ class China(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         WingLoong_I = planes.WingLoong_I
         H_6J = planes.H_6J
@@ -14285,6 +14406,7 @@ class China(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -14343,6 +14465,7 @@ class China(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.WingLoong_I,
         Plane.H_6J,
@@ -14351,6 +14474,7 @@ class China(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -14634,6 +14758,7 @@ class Croatia(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -14689,6 +14814,7 @@ class Croatia(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -15189,11 +15315,13 @@ class Egypt(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -15250,11 +15378,13 @@ class Egypt(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -15752,6 +15882,7 @@ class Finland(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -15807,6 +15938,7 @@ class Finland(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -16246,11 +16378,13 @@ class Greece(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -16308,11 +16442,13 @@ class Greece(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -16822,6 +16958,7 @@ class Hungary(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -16881,6 +17018,7 @@ class Hungary(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -17291,12 +17429,14 @@ class India(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -17354,12 +17494,14 @@ class India(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -17836,13 +17978,16 @@ class Iran(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_14B = planes.F_14B
+        F_14A_135_GR_Early = planes.F_14A_135_GR_Early
         F_14A_135_GR = planes.F_14A_135_GR
         F4U_1D = planes.F4U_1D
         F4U_1D_CW = planes.F4U_1D_CW
@@ -17901,13 +18046,16 @@ class Iran(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_14B,
+        Plane.F_14A_135_GR_Early,
         Plane.F_14A_135_GR,
         Plane.F4U_1D,
         Plane.F4U_1D_CW,
@@ -18383,11 +18531,13 @@ class Iraq(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -18447,11 +18597,13 @@ class Iraq(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -18902,12 +19054,14 @@ class Japan(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -18959,12 +19113,14 @@ class Japan(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -19520,6 +19676,7 @@ class Kazakhstan(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -19587,6 +19744,7 @@ class Kazakhstan(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -19981,6 +20139,7 @@ class NorthKorea(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -20038,6 +20197,7 @@ class NorthKorea(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -20429,10 +20589,12 @@ class Pakistan(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -20491,10 +20653,12 @@ class Pakistan(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -20975,11 +21139,13 @@ class Poland(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -21040,11 +21206,13 @@ class Poland(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -21531,12 +21699,14 @@ class Romania(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -21591,12 +21761,14 @@ class Romania(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -22011,12 +22183,14 @@ class SaudiArabia(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F4U_1D = planes.F4U_1D
         F4U_1D_CW = planes.F4U_1D_CW
         F_A_18A = planes.F_A_18A
@@ -22072,12 +22246,14 @@ class SaudiArabia(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F4U_1D,
         Plane.F4U_1D_CW,
         Plane.F_A_18A,
@@ -22522,6 +22698,7 @@ class Serbia(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -22581,6 +22758,7 @@ class Serbia(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -22990,6 +23168,7 @@ class Slovakia(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -23049,6 +23228,7 @@ class Slovakia(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -23443,11 +23623,13 @@ class SouthKorea(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F4U_1D = planes.F4U_1D
         F4U_1D_CW = planes.F4U_1D_CW
         F_A_18A = planes.F_A_18A
@@ -23503,11 +23685,13 @@ class SouthKorea(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F4U_1D,
         Plane.F4U_1D_CW,
         Plane.F_A_18A,
@@ -23856,12 +24040,14 @@ class Sweden(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -23914,12 +24100,14 @@ class Sweden(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -24397,6 +24585,7 @@ class Syria(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -24459,6 +24648,7 @@ class Syria(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -24858,12 +25048,14 @@ class Yemen(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
         F4U_1D = planes.F4U_1D
@@ -24916,12 +25108,14 @@ class Yemen(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
         Plane.F4U_1D,
@@ -25355,6 +25549,7 @@ class Vietnam(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
         F4U_1D = planes.F4U_1D
@@ -25415,6 +25610,7 @@ class Vietnam(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
         Plane.F4U_1D,
@@ -25808,12 +26004,14 @@ class Venezuela(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -25865,12 +26063,14 @@ class Venezuela(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -26206,12 +26406,14 @@ class Tunisia(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F4U_1D = planes.F4U_1D
         F4U_1D_CW = planes.F4U_1D_CW
         F_A_18A = planes.F_A_18A
@@ -26261,12 +26463,14 @@ class Tunisia(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F4U_1D,
         Plane.F4U_1D_CW,
         Plane.F_A_18A,
@@ -26624,12 +26828,14 @@ class Thailand(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F4U_1D = planes.F4U_1D
         F4U_1D_CW = planes.F4U_1D_CW
         F_A_18A = planes.F_A_18A
@@ -26682,12 +26888,14 @@ class Thailand(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F4U_1D,
         Plane.F4U_1D_CW,
         Plane.F_A_18A,
@@ -27060,12 +27268,14 @@ class Sudan(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
         F4U_1D = planes.F4U_1D
@@ -27119,12 +27329,14 @@ class Sudan(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
         Plane.F4U_1D,
@@ -27450,12 +27662,14 @@ class Philippines(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F4U_1D = planes.F4U_1D
         F4U_1D_CW = planes.F4U_1D_CW
         F_A_18A = planes.F_A_18A
@@ -27507,12 +27721,14 @@ class Philippines(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F4U_1D,
         Plane.F4U_1D_CW,
         Plane.F_A_18A,
@@ -27895,11 +28111,13 @@ class Morocco(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
         F4U_1D = planes.F4U_1D
@@ -27954,11 +28172,13 @@ class Morocco(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
         Plane.F4U_1D,
@@ -28299,12 +28519,14 @@ class Mexico(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
         F4U_1D = planes.F4U_1D
@@ -28355,12 +28577,14 @@ class Mexico(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
         Plane.F4U_1D,
@@ -28719,12 +28943,14 @@ class Malaysia(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
         F4U_1D = planes.F4U_1D
@@ -28775,12 +29001,14 @@ class Malaysia(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
         Plane.F4U_1D,
@@ -29180,12 +29408,14 @@ class Libya(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -29240,12 +29470,14 @@ class Libya(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -29635,12 +29867,14 @@ class Jordan(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
         F4U_1D = planes.F4U_1D
@@ -29694,12 +29928,14 @@ class Jordan(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
         Plane.F4U_1D,
@@ -30120,12 +30356,14 @@ class Indonesia(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
         F4U_1D = planes.F4U_1D
@@ -30182,12 +30420,14 @@ class Indonesia(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
         Plane.F4U_1D,
@@ -30525,12 +30765,14 @@ class Honduras(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
         F4U_1D = planes.F4U_1D
@@ -30580,12 +30822,14 @@ class Honduras(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
         Plane.F4U_1D,
@@ -30976,6 +31220,7 @@ class Ethiopia(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F4U_1D = planes.F4U_1D
         F4U_1D_CW = planes.F4U_1D_CW
         F_A_18A = planes.F_A_18A
@@ -31034,6 +31279,7 @@ class Ethiopia(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F4U_1D,
         Plane.F4U_1D_CW,
         Plane.F_A_18A,
@@ -31401,11 +31647,13 @@ class Chile(Country):
         KC130 = planes.KC130
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
         F4U_1D = planes.F4U_1D
@@ -31462,11 +31710,13 @@ class Chile(Country):
         Plane.KC130,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
         Plane.F4U_1D,
@@ -31855,12 +32105,14 @@ class Brazil(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
         F4U_1D = planes.F4U_1D
@@ -31911,12 +32163,14 @@ class Brazil(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
         Plane.F4U_1D,
@@ -32298,6 +32552,7 @@ class Bahrain(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_86F_Sabre = planes.F_86F_Sabre
         F_86F_FC = planes.F_86F_FC
         F4U_1D = planes.F4U_1D
@@ -32352,6 +32607,7 @@ class Bahrain(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_86F_Sabre,
         Plane.F_86F_FC,
         Plane.F4U_1D,
@@ -32733,6 +32989,7 @@ class ThirdReich(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -32788,6 +33045,7 @@ class ThirdReich(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -33197,6 +33455,7 @@ class Yugoslavia(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -33254,6 +33513,7 @@ class Yugoslavia(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -33496,6 +33756,12 @@ class USSR(Country):
             prmg_gp_beacon = vehicles.Unarmed.prmg_gp_beacon
             prmg_loc_beacon = vehicles.Unarmed.prmg_loc_beacon
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
+            kamaz_tent_civil = vehicles.Unarmed.kamaz_tent_civil
+            ural_atz5_civil = vehicles.Unarmed.ural_atz5_civil
+            ural_4230_civil_b = vehicles.Unarmed.ural_4230_civil_b
+            ural_4230_civil_t = vehicles.Unarmed.ural_4230_civil_t
+            zil_131_civil = vehicles.Unarmed.zil_131_civil
+            gaz_66_civil = vehicles.Unarmed.gaz_66_civil
             CCKW_353 = vehicles.Unarmed.CCKW_353
             M30_CC = vehicles.Unarmed.M30_CC
 
@@ -33666,6 +33932,12 @@ class USSR(Country):
         vehicles.Unarmed.prmg_gp_beacon,
         vehicles.Unarmed.prmg_loc_beacon,
         vehicles.Unarmed.Bedford_MWD,
+        vehicles.Unarmed.kamaz_tent_civil,
+        vehicles.Unarmed.ural_atz5_civil,
+        vehicles.Unarmed.ural_4230_civil_b,
+        vehicles.Unarmed.ural_4230_civil_t,
+        vehicles.Unarmed.zil_131_civil,
+        vehicles.Unarmed.gaz_66_civil,
         vehicles.Unarmed.CCKW_353,
         vehicles.Unarmed.M30_CC,
         vehicles.Armor.BMD_1,
@@ -33773,6 +34045,7 @@ class USSR(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -33853,6 +34126,7 @@ class USSR(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -34180,6 +34454,7 @@ class ItalianSocialRepublic(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -34234,6 +34509,7 @@ class ItalianSocialRepublic(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -34775,12 +35051,14 @@ class Algeria(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -34846,12 +35124,14 @@ class Algeria(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -35260,12 +35540,14 @@ class Kuwait(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -35317,12 +35599,14 @@ class Kuwait(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -35685,6 +35969,7 @@ class Qatar(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -35743,6 +36028,7 @@ class Qatar(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -36139,11 +36425,13 @@ class Oman(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -36196,11 +36484,13 @@ class Oman(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -36604,12 +36894,14 @@ class UnitedArabEmirates(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -36663,12 +36955,14 @@ class UnitedArabEmirates(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -37014,12 +37308,14 @@ class SouthAfrica(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -37073,12 +37369,14 @@ class SouthAfrica(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -37531,6 +37829,7 @@ class Cuba(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -37596,6 +37895,7 @@ class Cuba(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -37962,11 +38262,13 @@ class Portugal(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -38022,11 +38324,13 @@ class Portugal(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -38473,6 +38777,7 @@ class GDR(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -38533,6 +38838,7 @@ class GDR(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -38923,6 +39229,7 @@ class Lebanon(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -38979,6 +39286,7 @@ class Lebanon(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -39399,6 +39707,12 @@ class CombinedJointTaskForcesBlue(Country):
             prmg_gp_beacon = vehicles.Unarmed.prmg_gp_beacon
             prmg_loc_beacon = vehicles.Unarmed.prmg_loc_beacon
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
+            kamaz_tent_civil = vehicles.Unarmed.kamaz_tent_civil
+            ural_atz5_civil = vehicles.Unarmed.ural_atz5_civil
+            ural_4230_civil_b = vehicles.Unarmed.ural_4230_civil_b
+            ural_4230_civil_t = vehicles.Unarmed.ural_4230_civil_t
+            zil_131_civil = vehicles.Unarmed.zil_131_civil
+            gaz_66_civil = vehicles.Unarmed.gaz_66_civil
             CCKW_353 = vehicles.Unarmed.CCKW_353
             M30_CC = vehicles.Unarmed.M30_CC
             Hummer = vehicles.Unarmed.Hummer
@@ -39759,6 +40073,12 @@ class CombinedJointTaskForcesBlue(Country):
         vehicles.Unarmed.prmg_gp_beacon,
         vehicles.Unarmed.prmg_loc_beacon,
         vehicles.Unarmed.Bedford_MWD,
+        vehicles.Unarmed.kamaz_tent_civil,
+        vehicles.Unarmed.ural_atz5_civil,
+        vehicles.Unarmed.ural_4230_civil_b,
+        vehicles.Unarmed.ural_4230_civil_t,
+        vehicles.Unarmed.zil_131_civil,
+        vehicles.Unarmed.gaz_66_civil,
         vehicles.Unarmed.CCKW_353,
         vehicles.Unarmed.M30_CC,
         vehicles.Unarmed.Hummer,
@@ -39926,6 +40246,7 @@ class CombinedJointTaskForcesBlue(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -39982,6 +40303,7 @@ class CombinedJointTaskForcesBlue(Country):
         Yak_40 = planes.Yak_40
         C_130 = planes.C_130
         MiG_29S = planes.MiG_29S
+        C_130J_30 = planes.C_130J_30
         Mirage_2000_5 = planes.Mirage_2000_5
         P_51D_30_NA = planes.P_51D_30_NA
         F_16C_bl_50 = planes.F_16C_bl_50
@@ -40033,6 +40355,7 @@ class CombinedJointTaskForcesBlue(Country):
         S_3B = planes.S_3B
         F_14B = planes.F_14B
         F_14A_135_GR = planes.F_14A_135_GR
+        F_14A_135_GR_Early = planes.F_14A_135_GR_Early
         Tornado_GR4 = planes.Tornado_GR4
         Mirage_F1CG = planes.Mirage_F1CG
         Mirage_F1CK = planes.Mirage_F1CK
@@ -40062,6 +40385,7 @@ class CombinedJointTaskForcesBlue(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -40118,6 +40442,7 @@ class CombinedJointTaskForcesBlue(Country):
         Plane.Yak_40,
         Plane.C_130,
         Plane.MiG_29S,
+        Plane.C_130J_30,
         Plane.Mirage_2000_5,
         Plane.P_51D_30_NA,
         Plane.F_16C_bl_50,
@@ -40169,6 +40494,7 @@ class CombinedJointTaskForcesBlue(Country):
         Plane.S_3B,
         Plane.F_14B,
         Plane.F_14A_135_GR,
+        Plane.F_14A_135_GR_Early,
         Plane.Tornado_GR4,
         Plane.Mirage_F1CG,
         Plane.Mirage_F1CK,
@@ -40689,6 +41015,12 @@ class CombinedJointTaskForcesRed(Country):
             prmg_gp_beacon = vehicles.Unarmed.prmg_gp_beacon
             prmg_loc_beacon = vehicles.Unarmed.prmg_loc_beacon
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
+            kamaz_tent_civil = vehicles.Unarmed.kamaz_tent_civil
+            ural_atz5_civil = vehicles.Unarmed.ural_atz5_civil
+            ural_4230_civil_b = vehicles.Unarmed.ural_4230_civil_b
+            ural_4230_civil_t = vehicles.Unarmed.ural_4230_civil_t
+            zil_131_civil = vehicles.Unarmed.zil_131_civil
+            gaz_66_civil = vehicles.Unarmed.gaz_66_civil
             CCKW_353 = vehicles.Unarmed.CCKW_353
             M30_CC = vehicles.Unarmed.M30_CC
             Hummer = vehicles.Unarmed.Hummer
@@ -41049,6 +41381,12 @@ class CombinedJointTaskForcesRed(Country):
         vehicles.Unarmed.prmg_gp_beacon,
         vehicles.Unarmed.prmg_loc_beacon,
         vehicles.Unarmed.Bedford_MWD,
+        vehicles.Unarmed.kamaz_tent_civil,
+        vehicles.Unarmed.ural_atz5_civil,
+        vehicles.Unarmed.ural_4230_civil_b,
+        vehicles.Unarmed.ural_4230_civil_t,
+        vehicles.Unarmed.zil_131_civil,
+        vehicles.Unarmed.gaz_66_civil,
         vehicles.Unarmed.CCKW_353,
         vehicles.Unarmed.M30_CC,
         vehicles.Unarmed.Hummer,
@@ -41216,6 +41554,7 @@ class CombinedJointTaskForcesRed(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -41272,6 +41611,7 @@ class CombinedJointTaskForcesRed(Country):
         Yak_40 = planes.Yak_40
         C_130 = planes.C_130
         MiG_29S = planes.MiG_29S
+        C_130J_30 = planes.C_130J_30
         Mirage_2000_5 = planes.Mirage_2000_5
         P_51D_30_NA = planes.P_51D_30_NA
         F_16C_bl_50 = planes.F_16C_bl_50
@@ -41323,6 +41663,7 @@ class CombinedJointTaskForcesRed(Country):
         S_3B = planes.S_3B
         F_14B = planes.F_14B
         F_14A_135_GR = planes.F_14A_135_GR
+        F_14A_135_GR_Early = planes.F_14A_135_GR_Early
         Tornado_GR4 = planes.Tornado_GR4
         Mirage_F1CG = planes.Mirage_F1CG
         Mirage_F1CK = planes.Mirage_F1CK
@@ -41352,6 +41693,7 @@ class CombinedJointTaskForcesRed(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -41408,6 +41750,7 @@ class CombinedJointTaskForcesRed(Country):
         Plane.Yak_40,
         Plane.C_130,
         Plane.MiG_29S,
+        Plane.C_130J_30,
         Plane.Mirage_2000_5,
         Plane.P_51D_30_NA,
         Plane.F_16C_bl_50,
@@ -41459,6 +41802,7 @@ class CombinedJointTaskForcesRed(Country):
         Plane.S_3B,
         Plane.F_14B,
         Plane.F_14A_135_GR,
+        Plane.F_14A_135_GR_Early,
         Plane.Tornado_GR4,
         Plane.Mirage_F1CG,
         Plane.Mirage_F1CK,
@@ -41979,6 +42323,12 @@ class UnitedNationsPeacekeepers(Country):
             prmg_gp_beacon = vehicles.Unarmed.prmg_gp_beacon
             prmg_loc_beacon = vehicles.Unarmed.prmg_loc_beacon
             Bedford_MWD = vehicles.Unarmed.Bedford_MWD
+            kamaz_tent_civil = vehicles.Unarmed.kamaz_tent_civil
+            ural_atz5_civil = vehicles.Unarmed.ural_atz5_civil
+            ural_4230_civil_b = vehicles.Unarmed.ural_4230_civil_b
+            ural_4230_civil_t = vehicles.Unarmed.ural_4230_civil_t
+            zil_131_civil = vehicles.Unarmed.zil_131_civil
+            gaz_66_civil = vehicles.Unarmed.gaz_66_civil
             CCKW_353 = vehicles.Unarmed.CCKW_353
             M30_CC = vehicles.Unarmed.M30_CC
             Hummer = vehicles.Unarmed.Hummer
@@ -42339,6 +42689,12 @@ class UnitedNationsPeacekeepers(Country):
         vehicles.Unarmed.prmg_gp_beacon,
         vehicles.Unarmed.prmg_loc_beacon,
         vehicles.Unarmed.Bedford_MWD,
+        vehicles.Unarmed.kamaz_tent_civil,
+        vehicles.Unarmed.ural_atz5_civil,
+        vehicles.Unarmed.ural_4230_civil_b,
+        vehicles.Unarmed.ural_4230_civil_t,
+        vehicles.Unarmed.zil_131_civil,
+        vehicles.Unarmed.gaz_66_civil,
         vehicles.Unarmed.CCKW_353,
         vehicles.Unarmed.M30_CC,
         vehicles.Unarmed.Hummer,
@@ -42506,6 +42862,7 @@ class UnitedNationsPeacekeepers(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -42562,6 +42919,7 @@ class UnitedNationsPeacekeepers(Country):
         Yak_40 = planes.Yak_40
         C_130 = planes.C_130
         MiG_29S = planes.MiG_29S
+        C_130J_30 = planes.C_130J_30
         Mirage_2000_5 = planes.Mirage_2000_5
         P_51D_30_NA = planes.P_51D_30_NA
         F_16C_bl_50 = planes.F_16C_bl_50
@@ -42613,6 +42971,7 @@ class UnitedNationsPeacekeepers(Country):
         S_3B = planes.S_3B
         F_14B = planes.F_14B
         F_14A_135_GR = planes.F_14A_135_GR
+        F_14A_135_GR_Early = planes.F_14A_135_GR_Early
         Tornado_GR4 = planes.Tornado_GR4
         Mirage_F1CG = planes.Mirage_F1CG
         Mirage_F1CK = planes.Mirage_F1CK
@@ -42642,6 +43001,7 @@ class UnitedNationsPeacekeepers(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -42698,6 +43058,7 @@ class UnitedNationsPeacekeepers(Country):
         Plane.Yak_40,
         Plane.C_130,
         Plane.MiG_29S,
+        Plane.C_130J_30,
         Plane.Mirage_2000_5,
         Plane.P_51D_30_NA,
         Plane.F_16C_bl_50,
@@ -42749,6 +43110,7 @@ class UnitedNationsPeacekeepers(Country):
         Plane.S_3B,
         Plane.F_14B,
         Plane.F_14A_135_GR,
+        Plane.F_14A_135_GR_Early,
         Plane.Tornado_GR4,
         Plane.Mirage_F1CG,
         Plane.Mirage_F1CK,
@@ -43200,12 +43562,14 @@ class Argentina(Country):
         KC135MPRS = planes.KC135MPRS
         C_101EB = planes.C_101EB
         C_101CC = planes.C_101CC
+        C_130J_30 = planes.C_130J_30
         JF_17 = planes.JF_17
         Falcon_Gyrocopter = planes.Falcon_Gyrocopter
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -43256,12 +43620,14 @@ class Argentina(Country):
         Plane.KC135MPRS,
         Plane.C_101EB,
         Plane.C_101CC,
+        Plane.C_130J_30,
         Plane.JF_17,
         Plane.Falcon_Gyrocopter,
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -43649,6 +44015,7 @@ class Cyprus(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -43704,6 +44071,7 @@ class Cyprus(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -44070,6 +44438,7 @@ class Slovenia(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -44126,6 +44495,7 @@ class Slovenia(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -44492,6 +44862,7 @@ class Bolivia(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -44550,6 +44921,7 @@ class Bolivia(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -44886,6 +45258,7 @@ class Ghana(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -44941,6 +45314,7 @@ class Ghana(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -45305,6 +45679,7 @@ class Nigeria(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -45361,6 +45736,7 @@ class Nigeria(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -45736,6 +46112,7 @@ class Peru(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -45797,6 +46174,7 @@ class Peru(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -46149,6 +46527,7 @@ class Ecuador(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -46205,6 +46584,7 @@ class Ecuador(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -46618,6 +46998,7 @@ class Afghanistan(Country):
         F_15ESE = planes.F_15ESE
         F_16C_50 = planes.F_16C_50
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -46676,6 +47057,7 @@ class Afghanistan(Country):
         Plane.F_15ESE,
         Plane.F_16C_50,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
@@ -47064,6 +47446,7 @@ class NewZealand(Country):
         Christen_Eagle_II = planes.Christen_Eagle_II
         F_15ESE = planes.F_15ESE
         F_4E_45MC = planes.F_4E_45MC
+        QF_4E = planes.QF_4E
         F_5E = planes.F_5E
         F_5E_3 = planes.F_5E_3
         F_5E_3_FC = planes.F_5E_3_FC
@@ -47120,6 +47503,7 @@ class NewZealand(Country):
         Plane.Christen_Eagle_II,
         Plane.F_15ESE,
         Plane.F_4E_45MC,
+        Plane.QF_4E,
         Plane.F_5E,
         Plane.F_5E_3,
         Plane.F_5E_3_FC,
