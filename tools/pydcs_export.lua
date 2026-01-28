@@ -7,10 +7,9 @@
 -------------------------------------------------------------------------------
 
 -- edit export_path to your export folder
-local base_path = "D:\\Work\\DCS\\dcs\\dcs\\"
-local export_path = base_path .. "dcs\\"
+local export_path = "D:\\DCS World\\pydcs_export\\"
 
-local log_file = io.open(base_path.."export.log", "w")
+local log_file = io.open("D:\\DCS World\\pydcs_export\\pydcs_export.log", "w")
 
 -------------------------------------------------------------------------------
 -- helper functions

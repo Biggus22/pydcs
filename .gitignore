@@ -7,3 +7,4 @@ pydcs.egg-info/
 doc/_*
 venv/
 /export.log
+tools/pydcs_export.lua
